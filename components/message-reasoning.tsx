@@ -35,14 +35,14 @@ export function MessageReasoning({
     <div className="flex flex-col">
       {isLoading ? (
         <div className="flex flex-row gap-2 items-center">
-          <div className="font-medium">Reasoning</div>
+          <div className="font-medium">Kaisen AI is thinking...</div>
           <div className="animate-spin">
             <LoaderIcon />
           </div>
         </div>
       ) : (
         <div className="flex flex-row gap-2 items-center">
-          <div className="font-medium">Reasoned for a few seconds</div>
+          <div className="font-medium">Kaizen thought for a few seconds</div>
           <button
             data-testid="message-reasoning-toggle"
             type="button"
