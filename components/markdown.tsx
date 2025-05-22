@@ -5,7 +5,25 @@ import remarkGfm from 'remark-gfm';
 import { CodeBlock } from './code-block';
 
 const components: Partial<Components> = {
-  code: CodeBlock,
+  code({ inline, className, children, ...props }) {
+    const match = /language-(\w+)/.exec(className || "");
+    const language = match ? match[1] : "";
+    
+    return !inline ? (
+      <CodeBlock
+        language={language}
+        value={String(children).replace(/\n$/, "")}
+        {...props}
+      />
+    ) : (
+      <code
+        className="px-1.5 py-0.5 rounded-md bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-100 font-mono text-sm"
+        {...props}
+      >
+        {children}
+      </code>
+    );
+  },
   pre: ({ children }) => (
     <pre className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-700 p-4 rounded-lg shadow-lg my-4 transition-transform duration-300 hover:scale-105 border border-gray-700">
       {children}
