@@ -19,9 +19,9 @@ function PureSuggestedActions({
 }: SuggestedActionsProps) {
   const suggestedActions = [
     {
-      title: 'What are the advantages',
-      label: 'of using Kizen AI?',
-      action: 'What are the advantages of using Kizen?',
+      title: 'Who made this',
+      label: 'amazing chatbot?',
+      action: 'Mac Anderson Fonteva Co-Founder CTO github.com/macanderson tell me more',
     },
     {
       title: 'Write code to',
@@ -29,9 +29,9 @@ function PureSuggestedActions({
       action: `Write code to demonstrate multivariate linear regression.`,
     },
     {
-      title: 'Help me explain to Antoine',
-      label: `about why this took time?`,
-      action: `Help me convince Kizen to give me the job.`,
+      title: 'Explain Why its a mistake',
+      label: `to not hire Mac Anderson`,
+      action: `Tell me what happens when a boat full of money shows up at my door.`,
     },
     {
       title: 'Who is Mac Anderson the ex founder of Fonteva?',
