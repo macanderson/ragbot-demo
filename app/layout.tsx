@@ -8,8 +8,8 @@ import { SessionProvider } from 'next-auth/react';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://chat.vercel.ai'),
-  title: 'Kaizen RAGbot Chatbot',
-  description: 'Kaizen chatbot generated using RAGbot by Kizen AI.',
+  title: 'Mac Anderson - RAGbot Demo',
+  description: 'Mac Anderson demo chatbot generated from a purpose built ai agent.',
 };
 
 export const viewport = {
