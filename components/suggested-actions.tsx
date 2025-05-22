@@ -20,23 +20,23 @@ function PureSuggestedActions({
   const suggestedActions = [
     {
       title: 'What are the advantages',
-      label: 'of using Next.js?',
-      action: 'What are the advantages of using Next.js?',
+      label: 'of using Kizen AI?',
+      action: 'What are the advantages of using Kizen?',
     },
     {
       title: 'Write code to',
-      label: `demonstrate djikstra's algorithm`,
-      action: `Write code to demonstrate djikstra's algorithm`,
+      label: `demonstrate multivariate linear regression`,
+      action: `Write code to demonstrate multivariate linear regression.`,
     },
     {
-      title: 'Help me write an essay',
-      label: `about silicon valley`,
-      action: `Help me write an essay about silicon valley`,
+      title: 'Help me explain to Antoine',
+      label: `about why this took time?`,
+      action: `Help me convince Kizen to give me the job.`,
     },
     {
-      title: 'What is the weather',
-      label: 'in San Francisco?',
-      action: 'What is the weather in San Francisco?',
+      title: 'Who is Mac Anderson the ex founder of Fonteva?',
+      label: 'the award winning developer?',
+      action: 'Who is Mac Anderson the Cofounder and former CTO of Fonteva?',
     },
   ];
 
